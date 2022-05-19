@@ -6,7 +6,7 @@ public class ConnectionSettings {
     private int maxConnectionsPerRoute;
 
     public ConnectionSettings(int maxTotalConnections, int maxConnectionsPerRoute) {
-        var maxConnections = 10;
+        var maxConnections = 100;
         if(maxTotalConnections > maxConnections || maxConnectionsPerRoute > maxConnections){
             throw new IllegalArgumentException("Max connections can't be more " + maxConnections);
         }
