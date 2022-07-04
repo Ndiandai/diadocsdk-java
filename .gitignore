@@ -10,7 +10,6 @@ tools/*
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.orig
